@@ -125,7 +125,7 @@ async def notification_callback(sender, value):
     logging.info(values)
 
 async def main():
-    device_mac = "38:3b:26:79:50:17"
+    device_mac = "xxxxxx"
     #target_name_prefix = "BTG"
     read_characteristic_uuid = "0000fff1-0000-1000-8000-00805f9b34fb"
     #send a message to get all the measurement values 
